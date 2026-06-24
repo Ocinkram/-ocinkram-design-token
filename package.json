@@ -1,0 +1,35 @@
+{
+  "name": "@ocinkram/design-token",
+  "version": "1.0.0",
+  "description": "Shared design tokens for Ocinkram apps",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./colors": "./src/colors.js",
+    "./typography": "./src/typography.js",
+    "./spacing": "./src/spacing.js",
+    "./radius": "./src/radius.js",
+    "./shadows": "./src/shadows.js",
+    "./breakpoints": "./src/breakpoints.js",
+    "./zIndex": "./src/zIndex.js",
+    "./status-colors": "./src/statusColors.js",
+    "./component-sizes": "./src/componentSizes.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "design-token",
+    "design-tokens",
+    "theme",
+    "shared-config",
+    "ocinkram"
+  ],
+  "author": "Ocinkram",
+  "license": "UNLICENSED"
+}
