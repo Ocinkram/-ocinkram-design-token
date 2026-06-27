@@ -7,14 +7,8 @@
   "exports": {
     ".": "./src/index.js",
     "./colors": "./src/colors.js",
-    "./typography": "./src/typography.js",
     "./spacing": "./src/spacing.js",
-    "./radius": "./src/radius.js",
-    "./shadows": "./src/shadows.js",
-    "./breakpoints": "./src/breakpoints.js",
-    "./zIndex": "./src/zIndex.js",
-    "./status-colors": "./src/statusColors.js",
-    "./component-sizes": "./src/componentSizes.js"
+    "./radius": "./src/radius.js"
   },
   "files": [
     "src",
