@@ -1,7 +1,12 @@
-export const RADIUS = {
-  sm: 4,
+export const radius = {
+  none: 0,
+  xs: 2,
+  sm: 6,
   md: 8,
-  lg: 12,
-  xl: 16,
-  pill: 999,
-};
+  lg: 10,
+  xl: 14,
+  "2xl": 18,
+  "3xl": 22,
+  "4xl": 26,
+  full: 9999,
+}
