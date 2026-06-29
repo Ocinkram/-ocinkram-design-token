@@ -1,13 +1,12 @@
 {
   "name": "@ocinkram/design-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared design tokens for Ocinkram apps",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js",
     "./colors": "./src/colors.js",
-    "./spacing": "./src/spacing.js",
     "./radius": "./src/radius.js"
   },
   "files": [
@@ -20,8 +19,6 @@
   "keywords": [
     "design-token",
     "design-tokens",
-    "theme",
-    "shared-config",
     "ocinkram"
   ],
   "author": "Ocinkram",
